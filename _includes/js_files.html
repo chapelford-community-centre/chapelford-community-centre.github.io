@@ -1,0 +1,14 @@
+<script>
+  var baseurl = '{{ site.baseurl }}'
+</script>
+
+<!-- <script src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }} "></script>
+<script src="{{ "/js/typeahead.bundle.min.js" | prepend: site.baseurl }} "></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl }} "></script>
+
+<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+
+{% include slider_scripts.html %}

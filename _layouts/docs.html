@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          {% include docs_nav.html %}
+        </div>
+
+        <div class="col-md-9">
+            <h1>{{ page.title }}</h1>
+            {% if page.title != "Recommended Services" %}
+            {% if page.title != "Chapelford Farm Pub / Restaurant" %}
+            {% if page.title != "Sainsbury's" %}
+            {% if page.title != "Chapelford Business Directory" %}
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-info-circle"></i> Want your Business Listed Here</h3>
+                </div>
+                <div class="panel-body">
+            <p>If you live in Chapelford and want to see your business listed here, please <a href="mailto:info@chapelford-community-centre.co.uk">contact us</a> on email and provide information for each of the columns in table below.</p>
+
+            <p>Please note: free advertising is available for Chapelford based businesses only. If you're not based in Chapelford, we will list adverts for a small fee (£25 for 6 months).</p>
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endif %}
+            {% endif %}
+            <div id="markdown-content-container">{{ content }}</div>
+            <p class="text-center">
+              <br />
+              <!--<a target="_blank" href="{{site.git_edit_address}}/{{ page.path }}" class="btn btn-default githubEditButton" role="button">
+                <i class="fa fa-pencil fa-lg"></i> Improve this page
+              </a>-->
+            </p>
+            <hr>
+            {% include section_nav.html %}
+        </div>
+
+    </div>
+</div>

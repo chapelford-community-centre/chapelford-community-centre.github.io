@@ -1,0 +1,74 @@
+# Site settings
+title: Chapelford Community Centre
+email: info@chapelford-community-centre.co.uk
+description: >
+  The website for Chapelford Community.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://www.chapelford-community-centre.co.uk # the base hostname & protocol for your site
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+# bootwatch: paper
+bootwatch: cerulean
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/London
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _about
+    type: about
+  values:
+    layout: about
+    sectionid: about
+    seo:
+      type: "WebPage"
+
+collections:
+  about:
+    permalink: /:collection/:path/
+    output: true
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /news/:year/:month/:day/:title/
+    output: true
+
+# Search settings
+tipue_search:
+  include:
+    pages: true
+    collections: [about, docs, posts]
+  exclude:
+    files: [index.md, search.html]

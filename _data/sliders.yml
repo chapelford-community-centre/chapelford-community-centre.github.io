@@ -1,0 +1,15 @@
+# example slider
+- selector: example_slider
+  captions: true
+  images:
+    - src: /img/1.jpg
+      alt: Three of the hangars of the old Burtonwood Air Base.
+    - src: /img/2.jpg
+      alt: View westbound at the site of M62 J8, showing the last remaining part of the Burtonwood main runway before construction of the junction (Author - Paypwip, Wikipedia. Republished under the Creative Commons License)
+    - src: /img/3.jpg
+      alt: Aerial photograph of Burtonwood Airfield.
+    - src: /img/4.jpg
+      alt: Control tower and MATS Facility, RAF Burtonwood.
+  settings:
+    height: 400
+    effect: "'fade'"
