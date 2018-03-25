@@ -4,6 +4,6 @@ Install Jekyll
 Get the template
 Modify the theme
 Create a git
-Upload to GitLab
+Upload to GitHub
 Commit
 Try
