@@ -7,3 +7,9 @@ Create a git
 Upload to GitHub
 Commit
 Try
+
+#Steps to update
+
+Update the content on the file required.
+Commit the changes.
+job done.
