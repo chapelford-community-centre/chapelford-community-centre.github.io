@@ -8,7 +8,7 @@ Upload to GitHub
 Commit
 Try
 
-#Steps to update
+# Steps to update
 
 Update the content on the file required.
 Commit the changes.
