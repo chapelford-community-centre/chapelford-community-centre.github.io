@@ -14,7 +14,7 @@ Update the content on the file required.
 Commit the changes.
 job done.
 
-Note: The updates to business listings can be done by locating the category in which the business is listed or to be added. This should be done in the [_docs](https://github.com/chapelford-community-centre/chapelford-community-centre.github.io/tree/master/_docs) folder
+> Note: The updates to business listings can be done by locating the category in which the business is listed or to be added. This should be done in the [_docs](https://github.com/chapelford-community-centre/chapelford-community-centre.github.io/tree/master/_docs) folder
 
 # Changes to homepage
 
