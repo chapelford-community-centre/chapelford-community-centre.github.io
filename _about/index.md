@@ -13,11 +13,9 @@ Chapelford Community Centre is a Community Interest Company with Charitable Obje
 
 The Directors of the company are:
 
-* Mr. David Weaver
-* Ms. Delyth Ewen
-* Mr. Ankit Mittal
-* Mr. Summit Tuli
 * Ms. Jane Shacklady
+* Mr. Paul Warburton
+* Mr. David Weaver
 
 ## What is the Company for?
 
